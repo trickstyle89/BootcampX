@@ -19,3 +19,17 @@ LIMIT ${process.argv[3] || 5};
     console.log(`${user.name} has an id of ${user.student_id} and was in the ${user.cohort} cohort`);
   })
 });
+
+
+/* 
+$ node teachers.js JUL02
+connected
+JUL02: Cheyanne Powlowski
+JUL02: Georgiana Fahey
+JUL02: Helmer Rodriguez
+JUL02: Jadyn Bosco
+JUL02: Roberto Towne
+JUL02: Rosalyn Raynor
+JUL02: Talon Gottlieb
+JUL02: Waylon Boehm
+*/
